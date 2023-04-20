@@ -90,7 +90,7 @@ margin: 20px;
 .sub-text  center center / cover {
   max-width: 850px;
   margin-bottom: 10px;
-  font-size: 40px;
+  font-size: 300%;
   text-align: center;
    
 }
@@ -180,6 +180,11 @@ background: linear-gradient(318.68deg, #0f495c 0%, #0d3640 49.72%, #08141f 100%)
 .sub-header>div:last-of-type .sub-link{
   text-align:center;
 } 
+
+.btn-sub-link{
+  display: flex;
+  flex-direction: column;
+}
 
 
 /* Start of categories*/
